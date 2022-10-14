@@ -29,7 +29,8 @@ int CountLessThan(string[] input, int n)
 
     for(int i = 0; i < input.Length; i++)
     {
-        if(input[i].Length <= n) {
+        if(input[i].Length <= n)
+        {
             count++;
         }
     }
@@ -37,7 +38,8 @@ int CountLessThan(string[] input, int n)
     return count;
 }
 
-string[] AskArray() {
+string[] AskArray()
+{
     Console.Write("Введите значения через пробел: ");
     return Console.ReadLine().Split(" ");
 }
